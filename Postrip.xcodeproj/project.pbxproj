@@ -10,8 +10,6 @@
 		0A3E25991EACAB8500FFF5AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25981EACAB8500FFF5AE /* AppDelegate.swift */; };
 		0A3E259B1EACAB8500FFF5AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E259A1EACAB8500FFF5AE /* ViewController.swift */; };
 		0A3E259E1EACAB8500FFF5AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E259C1EACAB8500FFF5AE /* Main.storyboard */; };
-		0A3E25A01EACAB8500FFF5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E259F1EACAB8500FFF5AE /* Assets.xcassets */; };
-		0A3E25A31EACAB8500FFF5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E25A11EACAB8500FFF5AE /* LaunchScreen.storyboard */; };
 		0A3E25AE1EACAB8500FFF5AE /* PostripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25AD1EACAB8500FFF5AE /* PostripTests.swift */; };
 		0A3E25B91EACAB8500FFF5AE /* PostripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25B81EACAB8500FFF5AE /* PostripUITests.swift */; };
 		0A3E25C81EACB4E400FFF5AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25C71EACB4E400FFF5AE /* AudioToolbox.framework */; };
@@ -26,7 +24,10 @@
 		0A3E25DA1EACB5E700FFF5AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25D91EACB5E700FFF5AE /* libz.tbd */; };
 		0A3E25DD1EACB66400FFF5AE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25DB1EACB66300FFF5AE /* Bolts.framework */; };
 		0A3E25DE1EACB66400FFF5AE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25DC1EACB66300FFF5AE /* Parse.framework */; };
-		0A3E25E11EACB72B00FFF5AE /* Postrip-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25E01EACB72B00FFF5AE /* Postrip-Bridging-Header.m */; };
+		0A7DD5D31EACC13E00CEE706 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A7DD5D21EACC13E00CEE706 /* Pacifico.ttf */; };
+		0A7DD5D51EACC16500CEE706 /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7DD5D41EACC16500CEE706 /* FlagKit.xcassets */; };
+		0A7DD5D71EACC18400CEE706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7DD5D61EACC18400CEE706 /* Assets.xcassets */; };
+		0A7DD5D91EACC1F700CEE706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7DD5D81EACC1F700CEE706 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,6 @@
 		0A3E25981EACAB8500FFF5AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A3E259A1EACAB8500FFF5AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A3E259D1EACAB8500FFF5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A3E259F1EACAB8500FFF5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A3E25A21EACAB8500FFF5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A3E25A41EACAB8500FFF5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A3E25A91EACAB8500FFF5AE /* PostripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3E25AD1EACAB8500FFF5AE /* PostripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostripTests.swift; sourceTree = "<group>"; };
@@ -73,7 +72,10 @@
 		0A3E25DB1EACB66300FFF5AE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		0A3E25DC1EACB66300FFF5AE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		0A3E25DF1EACB72A00FFF5AE /* Postrip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Postrip-Bridging-Header.h"; sourceTree = "<group>"; };
-		0A3E25E01EACB72B00FFF5AE /* Postrip-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Postrip-Bridging-Header.m"; sourceTree = "<group>"; };
+		0A7DD5D21EACC13E00CEE706 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		0A7DD5D41EACC16500CEE706 /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = "<group>"; };
+		0A7DD5D61EACC18400CEE706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7DD5D81EACC1F700CEE706 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,6 @@
 		0A3E258C1EACAB8500FFF5AE = {
 			isa = PBXGroup;
 			children = (
-				0A3E25E01EACB72B00FFF5AE /* Postrip-Bridging-Header.m */,
 				0A3E25971EACAB8500FFF5AE /* Postrip */,
 				0A3E25AC1EACAB8500FFF5AE /* PostripTests */,
 				0A3E25B71EACAB8500FFF5AE /* PostripUITests */,
@@ -139,11 +140,13 @@
 		0A3E25971EACAB8500FFF5AE /* Postrip */ = {
 			isa = PBXGroup;
 			children = (
+				0A7DD5D11EACC12000CEE706 /* Custom */,
 				0A3E25981EACAB8500FFF5AE /* AppDelegate.swift */,
 				0A3E259A1EACAB8500FFF5AE /* ViewController.swift */,
 				0A3E259C1EACAB8500FFF5AE /* Main.storyboard */,
-				0A3E259F1EACAB8500FFF5AE /* Assets.xcassets */,
-				0A3E25A11EACAB8500FFF5AE /* LaunchScreen.storyboard */,
+				0A7DD5D61EACC18400CEE706 /* Assets.xcassets */,
+				0A7DD5D41EACC16500CEE706 /* FlagKit.xcassets */,
+				0A7DD5D81EACC1F700CEE706 /* LaunchScreen.storyboard */,
 				0A3E25A41EACAB8500FFF5AE /* Info.plist */,
 			);
 			path = Postrip;
@@ -184,6 +187,14 @@
 				0A3E25C71EACB4E400FFF5AE /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A7DD5D11EACC12000CEE706 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0A7DD5D21EACC13E00CEE706 /* Pacifico.ttf */,
+			);
+			name = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3E25A31EACAB8500FFF5AE /* LaunchScreen.storyboard in Resources */,
-				0A3E25A01EACAB8500FFF5AE /* Assets.xcassets in Resources */,
+				0A7DD5D51EACC16500CEE706 /* FlagKit.xcassets in Resources */,
+				0A7DD5D31EACC13E00CEE706 /* Pacifico.ttf in Resources */,
 				0A3E259E1EACAB8500FFF5AE /* Main.storyboard in Resources */,
+				0A7DD5D91EACC1F700CEE706 /* LaunchScreen.storyboard in Resources */,
+				0A7DD5D71EACC18400CEE706 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +339,6 @@
 			files = (
 				0A3E259B1EACAB8500FFF5AE /* ViewController.swift in Sources */,
 				0A3E25991EACAB8500FFF5AE /* AppDelegate.swift in Sources */,
-				0A3E25E11EACB72B00FFF5AE /* Postrip-Bridging-Header.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,14 +380,6 @@
 				0A3E259D1EACAB8500FFF5AE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0A3E25A11EACAB8500FFF5AE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A3E25A21EACAB8500FFF5AE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -590,6 +594,7 @@
 				0A3E25BF1EACAB8500FFF5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A3E25C01EACAB8500FFF5AE /* Build configuration list for PBXNativeTarget "PostripTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +603,7 @@
 				0A3E25C21EACAB8500FFF5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A3E25C31EACAB8500FFF5AE /* Build configuration list for PBXNativeTarget "PostripUITests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +612,7 @@
 				0A3E25C51EACAB8500FFF5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
