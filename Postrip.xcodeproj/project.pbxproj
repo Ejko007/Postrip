@@ -14,6 +14,19 @@
 		0A3E25A31EACAB8500FFF5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E25A11EACAB8500FFF5AE /* LaunchScreen.storyboard */; };
 		0A3E25AE1EACAB8500FFF5AE /* PostripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25AD1EACAB8500FFF5AE /* PostripTests.swift */; };
 		0A3E25B91EACAB8500FFF5AE /* PostripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25B81EACAB8500FFF5AE /* PostripUITests.swift */; };
+		0A3E25C81EACB4E400FFF5AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25C71EACB4E400FFF5AE /* AudioToolbox.framework */; };
+		0A3E25CA1EACB4F300FFF5AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25C91EACB4F300FFF5AE /* Foundation.framework */; };
+		0A3E25CC1EACB4FE00FFF5AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25CB1EACB4FE00FFF5AE /* CoreGraphics.framework */; };
+		0A3E25CE1EACB50F00FFF5AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25CD1EACB50F00FFF5AE /* CoreLocation.framework */; };
+		0A3E25D01EACB58A00FFF5AE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25CF1EACB58A00FFF5AE /* MobileCoreServices.framework */; };
+		0A3E25D21EACB59B00FFF5AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25D11EACB59B00FFF5AE /* QuartzCore.framework */; };
+		0A3E25D41EACB5AA00FFF5AE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25D31EACB5AA00FFF5AE /* Security.framework */; };
+		0A3E25D61EACB5B600FFF5AE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25D51EACB5B600FFF5AE /* StoreKit.framework */; };
+		0A3E25D81EACB5C300FFF5AE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25D71EACB5C300FFF5AE /* SystemConfiguration.framework */; };
+		0A3E25DA1EACB5E700FFF5AE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25D91EACB5E700FFF5AE /* libz.tbd */; };
+		0A3E25DD1EACB66400FFF5AE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25DB1EACB66300FFF5AE /* Bolts.framework */; };
+		0A3E25DE1EACB66400FFF5AE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3E25DC1EACB66300FFF5AE /* Parse.framework */; };
+		0A3E25E11EACB72B00FFF5AE /* Postrip-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E25E01EACB72B00FFF5AE /* Postrip-Bridging-Header.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,20 @@
 		0A3E25B41EACAB8500FFF5AE /* PostripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3E25B81EACAB8500FFF5AE /* PostripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostripUITests.swift; sourceTree = "<group>"; };
 		0A3E25BA1EACAB8500FFF5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3E25C71EACB4E400FFF5AE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A3E25C91EACB4F300FFF5AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A3E25CB1EACB4FE00FFF5AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A3E25CD1EACB50F00FFF5AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0A3E25CF1EACB58A00FFF5AE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0A3E25D11EACB59B00FFF5AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A3E25D31EACB5AA00FFF5AE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A3E25D51EACB5B600FFF5AE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0A3E25D71EACB5C300FFF5AE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A3E25D91EACB5E700FFF5AE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0A3E25DB1EACB66300FFF5AE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0A3E25DC1EACB66300FFF5AE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0A3E25DF1EACB72A00FFF5AE /* Postrip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Postrip-Bridging-Header.h"; sourceTree = "<group>"; };
+		0A3E25E01EACB72B00FFF5AE /* Postrip-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Postrip-Bridging-Header.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3E25DA1EACB5E700FFF5AE /* libz.tbd in Frameworks */,
+				0A3E25D81EACB5C300FFF5AE /* SystemConfiguration.framework in Frameworks */,
+				0A3E25D61EACB5B600FFF5AE /* StoreKit.framework in Frameworks */,
+				0A3E25D41EACB5AA00FFF5AE /* Security.framework in Frameworks */,
+				0A3E25D21EACB59B00FFF5AE /* QuartzCore.framework in Frameworks */,
+				0A3E25D01EACB58A00FFF5AE /* MobileCoreServices.framework in Frameworks */,
+				0A3E25CE1EACB50F00FFF5AE /* CoreLocation.framework in Frameworks */,
+				0A3E25CC1EACB4FE00FFF5AE /* CoreGraphics.framework in Frameworks */,
+				0A3E25DD1EACB66400FFF5AE /* Bolts.framework in Frameworks */,
+				0A3E25CA1EACB4F300FFF5AE /* Foundation.framework in Frameworks */,
+				0A3E25DE1EACB66400FFF5AE /* Parse.framework in Frameworks */,
+				0A3E25C81EACB4E400FFF5AE /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +116,13 @@
 		0A3E258C1EACAB8500FFF5AE = {
 			isa = PBXGroup;
 			children = (
+				0A3E25E01EACB72B00FFF5AE /* Postrip-Bridging-Header.m */,
 				0A3E25971EACAB8500FFF5AE /* Postrip */,
 				0A3E25AC1EACAB8500FFF5AE /* PostripTests */,
 				0A3E25B71EACAB8500FFF5AE /* PostripUITests */,
 				0A3E25961EACAB8500FFF5AE /* Products */,
+				0A3E25C61EACB4E400FFF5AE /* Frameworks */,
+				0A3E25DF1EACB72A00FFF5AE /* Postrip-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +165,25 @@
 				0A3E25BA1EACAB8500FFF5AE /* Info.plist */,
 			);
 			path = PostripUITests;
+			sourceTree = "<group>";
+		};
+		0A3E25C61EACB4E400FFF5AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E25DB1EACB66300FFF5AE /* Bolts.framework */,
+				0A3E25DC1EACB66300FFF5AE /* Parse.framework */,
+				0A3E25D91EACB5E700FFF5AE /* libz.tbd */,
+				0A3E25D71EACB5C300FFF5AE /* SystemConfiguration.framework */,
+				0A3E25D51EACB5B600FFF5AE /* StoreKit.framework */,
+				0A3E25D31EACB5AA00FFF5AE /* Security.framework */,
+				0A3E25D11EACB59B00FFF5AE /* QuartzCore.framework */,
+				0A3E25CF1EACB58A00FFF5AE /* MobileCoreServices.framework */,
+				0A3E25CD1EACB50F00FFF5AE /* CoreLocation.framework */,
+				0A3E25CB1EACB4FE00FFF5AE /* CoreGraphics.framework */,
+				0A3E25C91EACB4F300FFF5AE /* Foundation.framework */,
+				0A3E25C71EACB4E400FFF5AE /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +255,7 @@
 					0A3E25941EACAB8500FFF5AE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = RXJ28CS78E;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0A3E25A81EACAB8500FFF5AE = {
@@ -264,6 +326,7 @@
 			files = (
 				0A3E259B1EACAB8500FFF5AE /* ViewController.swift in Sources */,
 				0A3E25991EACAB8500FFF5AE /* AppDelegate.swift in Sources */,
+				0A3E25E11EACB72B00FFF5AE /* Postrip-Bridging-Header.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +478,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = RXJ28CS78E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Postrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ejko.cz.Postrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Postrip-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +498,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = RXJ28CS78E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Postrip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ejko.cz.Postrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Postrip-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
